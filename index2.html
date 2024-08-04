@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style type="text/css">
+    * {
+      border: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .container {
+      margin: 0 auto;
+      width: 80%;
+    }
+
+    .container nav {
+      display: flex;
+      justify-content: space-between;
+      height: 50px;
+      align-items: center;
+    }
+
+    .navbar_brand {
+      display: flex;
+      gap: 5rem;
+    }
+
+    .navbar_brand a {
+      text-decoration: none;
+      font-size: 12px;
+    }
+
+    .buy_now-btn button {
+      background: #111b47;
+      padding: 0.5rem;
+      color: white;
+      width: 150px;
+    }
+
+    .landing a {
+      text-decoration: none;
+    }
+
+    .banner__hero {
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem;
+      margin-top: 5rem;
+      align-items: center;
+    }
+
+    .banner__hero2 {
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem;
+      margin-top: 12rem;
+      align-items: center;
+    }
+
+    .banner__hero3 {
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem;
+      margin-top: 7rem;
+      align-items: center;
+    }
+
+    .banner_text {
+      width: 400px;
+    }
+
+    .banner_text h1 {
+      color: #111b47;
+      font-weight: bold;
+    }
+
+    .banner_text p {
+      font-size: 12px;
+      line-height: 1.5rem;
+      color: #111b47;
+    }
+
+    .banner_text .btn-group {
+      display: flex;
+      gap: 1rem;
+      margin-top: 3rem;
+    }
+
+    .banner_text .btn-group .btn {
+      padding: 0.7rem;
+      width: 200px;
+    }
+
+    .btn-purchase {
+      background: #111b47;
+      color: white;
+    }
+
+    .btn-outlined {
+      border: 1px solid #111b47;
+      background: transparent;
+    }
+
+    .banner__image img {
+      position: absolute;
+      right: 0;
+      top: 150px;
+      width: 400px;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <nav>
+        <div class="navbar_brand">
+          <a href="">Home</a>
+          <a href="">About</a>
+          <a href="">ffhhfh</a>
+        </div>
+
+        <div class="landing">
+          <a href=""><h3>Landing</h3></a>
+        </div>
+
+        <div class="buy_now-btn">
+          <button>Buy Now</button>
+        </div>
+      </nav>
+
+      <!-- BANNER-->
+
+      <img
+        src="./images/Path.png"
+        alt=""
+        style="
+          position: absolute;
+          width: 800px;
+          height: 700px;
+          z-index: -1000;
+          right: 0;
+          top: 0;
+        "
+      />
+
+      <div class="banner__hero">
+        <div class="banner_text">
+          <h1>Introduce Your Product Quickly & Effectively</h1>
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+            Nulla consequat massa quis enim.
+          </p>
+
+          <div class="btn-group">
+            <button class="btn btn-purchase">Purchase UI Kit</button>
+            <button class="btn btn-outlined">Learn More</button>
+          </div>
+        </div>
+        <div class="banner__image">
+          <img src="./images/arc.png" alt="arc" />
+        </div>
+      </div>
+
+      <div class="banner__hero2">
+        <div class="banner_text">
+          <h1>Introduce Your Product Quickly & Effectively</h1>
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+            Nulla consequat massa quis enim.
+          </p>
+
+          <div class="btn-group">
+            <button class="btn btn-purchase">Purchase UI Kit</button>
+            <button class="btn btn-outlined">Learn More</button>
+          </div>
+        </div>
+        <div class="banner__image2">
+          <img
+            src="https://landing-nu-taupe.vercel.app/assets/images/undraw_mobile_login_ikmv.png"
+          />
+        </div>
+      </div>
+
+      <div class="banner__hero3">
+        <div class="banner__image2">
+          <img
+            src="https://landing-nu-taupe.vercel.app/assets/images/undraw_mobile_login_ikmv.png"
+          />
+        </div>
+        <div class="banner_text">
+          <h1>Introduce Your Product Quickly & Effectively</h1>
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+            Nulla consequat massa quis enim.
+          </p>
+
+          <div class="btn-group">
+            <button class="btn btn-purchase">Purchase UI Kit</button>
+            <button class="btn btn-outlined">Learn More</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

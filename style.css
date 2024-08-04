@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.figma{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    border: 1px solid red;
+}
+
+.linkstwo{
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+}
+
+.header{
+    border: 1px solid blue;
+}
+.nav button{
+    border: 1px soluid rgb(50, 205, 78);
+}
+.arc{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: -49px;
+    left: 417.29px;
+
+
+
+    
+}
